@@ -57,6 +57,7 @@ func main() {
 
 	fmt.Println()
 	fmt.Println("...Finished, press any key to continue...")
+	fmt.Scanln(&input)
 }
 
 func UnzipLoader() {
