@@ -50,6 +50,11 @@ func main() {
 		panic(err)
 	}
 
+	err = os.RemoveAll("./loader")
+	if err != nil {
+		panic(err)
+	}
+
 	fmt.Println()
 	fmt.Println("...Finished, press any key to continue...")
 }
